@@ -1,0 +1,41 @@
+{
+    "info": {
+        "name": "Chatbot API Collection",
+        "_postman_id": "12345-67890-abcdef",
+        "description": "Collection to test the Chatbot API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Test Chatbot API",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"message\": \"hi\"}"
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:5000/chatbot",
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "5000",
+                    "path": [
+                        "chatbot"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
